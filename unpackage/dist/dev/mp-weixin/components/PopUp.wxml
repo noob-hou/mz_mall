@@ -1,0 +1,1 @@
+<transition vue-id="d92002b6-1" name="slide-fade" bind:__l="__l" vue-slots="{{['default']}}"><block wx:if="{{show}}"><view class="pop-up"><view class="content" style="{{(height)}}"><view data-event-opts="{{[['tap',[['close',['$event']]]]]}}" class="close iconfont icon-guanbi" bindtap="__e"></view><view class="content"><slot></slot></view></view></view></block></transition>

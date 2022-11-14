@@ -1,0 +1,1 @@
+<view class="serve"><block wx:for="{{serveList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view><view class="serve-icon"><image src="{{baseUrl+item.image}}" mode="widthFix"></image></view><text class="serve-text">{{item.title}}</text></view></block></view>

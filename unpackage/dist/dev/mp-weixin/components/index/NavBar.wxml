@@ -1,0 +1,1 @@
+<view class="navbar"><view data-event-opts="{{[['tap',[['goSearch',['$event']]]]]}}" class="search" bindtap="__e"><image src="/static/sousuo2.png" mode=" scaleToFill"></image></view><view class="logo"><image src="/static/logo.png" mode="widthFix"></image></view><view style="width:40px;"></view></view>

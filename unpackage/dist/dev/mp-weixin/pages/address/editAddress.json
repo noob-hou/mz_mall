@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "编辑地址",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "picker-address": "/components/wangding-pickerAddress/wangding-pickerAddress"
+  }
+}

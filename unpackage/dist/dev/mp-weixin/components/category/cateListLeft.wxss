@@ -1,0 +1,25 @@
+
+.cate-list-left {
+  width: 200rpx;
+  background-color: #f7f7f7;
+  position: absolute;
+  top: 110rpx;
+  left: 0;
+  overflow: hidden;
+}
+.left-list-item {
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+}
+.textactive {
+  display: block;
+  width: 100%;
+  background-color: #fff;
+  border-left: 4px solid #0cb8e6;
+}
+.scrollhg{
+    height: calc(100vh - 110rpx);
+    padding-bottom: 110rpx;
+}
+

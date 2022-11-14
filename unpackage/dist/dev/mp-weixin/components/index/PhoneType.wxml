@@ -1,0 +1,1 @@
+<view class="phone-type"><block wx:for="{{phoneTypeList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="phone-type-item"><navigator url="{{item.link}}" redirect="{{true}}"><view class="phone-type-img"><image src="{{baseUrl+item.image}}" mode="widthFix"></image></view><view class="phone-type-title">{{item.title}}</view></navigator></view></block></view>

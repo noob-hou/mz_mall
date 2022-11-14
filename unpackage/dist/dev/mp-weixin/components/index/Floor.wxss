@@ -1,0 +1,47 @@
+
+.floor {
+  width: 100%;
+}
+.floor-title {
+  position: relative;
+  height: 180rpx;
+  text-align: center;
+  line-height: 180rpx;
+}
+.floor-title text {
+  font-size: 36rpx;
+  color: #000;
+  font-weight: bold;
+}
+.floor-title ::after {
+  content: " ";
+  width: 100rpx;
+  height: 30rpx;
+  border-top: 10rpx solid #1dbad9;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.floor-img {
+  height: 334rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.summary {
+  width: 50%;
+  padding: 30rpx;
+}
+.summary > view {
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 10rpx;
+  font-size: 30rpx;
+}
+.floor-img image {
+  height: 100%;
+}
+
+

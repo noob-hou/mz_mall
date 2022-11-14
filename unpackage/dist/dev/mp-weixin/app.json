@@ -1,0 +1,64 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/category/category",
+    "pages/cart/cart",
+    "pages/detail/detail",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/user/user",
+    "pages/address/address",
+    "pages/address/addAddress",
+    "pages/address/editAddress",
+    "pages/order/order",
+    "pages/pay/pay",
+    "pages/pay/payStatus",
+    "pages/order/orderlist",
+    "pages/order/orderDetail",
+    "pages/search/search",
+    "pages/shopList/shopList",
+    "pages/setting/setting"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "魅族手机商城",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tabbar1.png",
+        "selectedIconPath": "static/tabbar1-1.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "static/tabbar2.png",
+        "selectedIconPath": "static/tabbar2-1.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "./static/tabbar3.png",
+        "selectedIconPath": "static/tabbar3-1.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "用户",
+        "iconPath": "static/tabbar4.png",
+        "selectedIconPath": "static/tabbar4-1.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "测试 获取地理位置"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

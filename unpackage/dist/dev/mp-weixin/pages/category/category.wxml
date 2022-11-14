@@ -1,0 +1,1 @@
+<view class="cate"><search vue-id="9d275500-1" bind:__l="__l"></search><cate-list-left vue-id="9d275500-2" cateleftList="{{cateLIstData}}" bind:__l="__l"></cate-list-left><cate-list-right vue-id="9d275500-3" cateRightList="{{cateLIstData}}" bind:__l="__l"></cate-list-right></view>

@@ -1,0 +1,27 @@
+
+.navbar{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    height: 110rpx;
+    width: 100%;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+
+	margin-top: 30rpx;
+}
+.navbar .search image,
+.navbar .cart image{
+    width: 40rpx;
+    height: 40rpx;
+    margin: 20rpx;
+}
+.navbar .logo image{
+   width: 200rpx;
+   height: 40rpx;
+}
+

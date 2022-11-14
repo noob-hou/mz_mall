@@ -1,0 +1,28 @@
+
+.user-item {
+  padding: 0 30rpx;
+}
+.item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  height: 90rpx;
+  border-bottom: 1px solid #e5e5e5;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.item view:nth-child(1),
+.item view:nth-child(3) {
+  width: 30rpx;
+  height: 30rpx;
+  text-align: center;
+  line-height: 30rpx;
+}
+.item view:nth-child(2) {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  padding-left: 25rpx;
+}
+

@@ -1,0 +1,6 @@
+{
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTitleText": "支付状态",
+  "enablePullDownRefresh": false,
+  "usingComponents": {}
+}

@@ -1,0 +1,24 @@
+
+.menubar{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+    width: 100%;
+}
+.menubar>view{
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+            flex: 1;
+    font-size: 28rpx;
+    height: 110rpx;
+    text-align: center;
+    line-height: 110rpx;
+}
+.active{
+    border-bottom: 2px solid #048eff;
+    color:#0bbbef;
+}
+

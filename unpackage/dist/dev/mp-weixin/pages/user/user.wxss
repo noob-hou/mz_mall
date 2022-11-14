@@ -1,0 +1,12 @@
+
+.quit-login{
+	height: 110rpx;
+	margin: 100rpx 30rpx;
+	height: 85rpx;
+}
+.status_bar {
+  width: 100%;
+  height: 25px;
+  background-color: #0097c4;
+}
+

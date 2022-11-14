@@ -1,0 +1,1 @@
+<view class="menubar"><block wx:for="{{menuBar}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['tabToggle',[index]]]]]}}" bindtap="__e"><text class="{{[currentIndex===index?'active':'']}}">{{item}}</text></view></block></view>

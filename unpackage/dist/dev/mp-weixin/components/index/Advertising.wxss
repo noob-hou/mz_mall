@@ -1,0 +1,15 @@
+
+.Advertising {
+  width: 100%;
+  overflow: hidden;
+}
+.Advertising-item {
+  float: left;
+  width: 49%;
+  height: 100%;
+  font-size: 0;
+  margin-right: 2px;
+  margin-bottom: 1px;
+}
+
+

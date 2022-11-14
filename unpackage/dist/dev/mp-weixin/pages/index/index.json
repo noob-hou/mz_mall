@@ -1,0 +1,14 @@
+{
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "nav-bar": "/components/index/NavBar",
+    "menu-tab": "/components/index/MenuTab",
+    "my-swiper": "/components/Swiper",
+    "serve": "/components/index/Serve",
+    "phone-type": "/components/index/PhoneType",
+    "advertising": "/components/index/Advertising",
+    "floor": "/components/index/Floor",
+    "product-list": "/components/productList"
+  }
+}

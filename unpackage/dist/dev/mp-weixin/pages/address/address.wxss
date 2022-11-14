@@ -1,0 +1,39 @@
+
+.address {
+  padding: 35rpx;
+  height: calc(100vh - 100rpx);
+}
+.list-item {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 30rpx auto;
+  margin-bottom: 10rpx;
+  touch-action: none;
+}
+.info text {
+  margin-right: 20rpx;
+}
+.info text:nth-child(3) {
+  background-color: #1ec8ff;
+  color: #fff;
+  font-size: 20rpx;
+}
+.goAdd {
+  width: calc(100% - 60rpx);
+  position: absolute;
+  bottom: 50rpx;
+  border-radius:40rpx;
+  right: 30rpx;
+  left: 30rpx;
+  height: 80rpx;
+  margin:auto;
+  overflow: hidden;
+}
+.empty {
+  margin-top: 200rpx;
+  width: 100%;
+  text-align: center;
+}
+.empty view {
+  color: #999;
+}
+

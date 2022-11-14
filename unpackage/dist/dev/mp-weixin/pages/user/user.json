@@ -1,0 +1,9 @@
+{
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "user-info": "/components/user/UserInfo",
+    "user-shop": "/components/user/UserShop",
+    "user-item": "/components/user/User-Item"
+  }
+}

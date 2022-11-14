@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uparse": "/components/gaoyia-parse/parse"
+  }
+}

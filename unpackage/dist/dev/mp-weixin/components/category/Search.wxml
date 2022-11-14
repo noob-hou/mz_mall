@@ -1,0 +1,1 @@
+<view class="search"><navigator class="search-input" url="/pages/search/search" redirect="{{true}}"><view class="seach-img"><image src="/static/search.png" mode="widthFix"></image></view><view class="seach-txt">搜索全部</view></navigator></view>

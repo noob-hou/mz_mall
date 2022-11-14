@@ -1,0 +1,90 @@
+
+page{
+	position: relative;
+	background-color: #F4F4F4
+}
+.item{
+	height: 95rpx;
+	background-color: #fff;
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	margin-bottom: 1px;
+	padding: 0 20rpx;
+}
+.item-right{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.logo{
+	width: 50rpx;
+	height: 50rpx;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 1px solid #F4F4F4;
+	margin-right: 20rpx;
+}
+.dialog{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 9;
+}
+.dialog-content{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	width: 700rpx;
+	height: 400rpx;
+	background-color: #fff;
+	border-radius: 50rpx;
+}
+.title{
+	height: 90rpx;
+	text-align: center;
+	line-height: 90rpx;
+}
+.input{
+	width: 100%;
+	padding: 40rpx;
+}
+.input input{
+	border: 1px solid #F4F4F4;
+	height: 90rpx;
+	border-radius: 10rpx;
+	color: #999;
+	padding-left: 20rpx;
+}
+.button{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 110rpx;
+}
+.button>view{
+	 float: left;
+	  width: 50%;
+	  height: 100%;
+	  text-align: center;
+	  line-height: 110rpx;
+}
+

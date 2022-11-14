@@ -1,0 +1,71 @@
+
+.pay {
+  padding: 80rpx 50rpx 0 50rpx;
+}
+.pay-order {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-bottom: 58rpx;
+}
+.order-number,
+.order-time {
+  font-size: 24rpx;
+  color: #999;
+}
+.order-price {
+  margin: 10rpx;
+}
+.price {
+  font-size: 70rpx;
+}
+.confirm-pay {
+  position: absolute;
+  bottom: 120rpx;
+  left: 80rpx;
+  right: 80rpx;
+  margin: auto;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-radius: 40rpx;
+  text-align: center;
+  color: #fff;
+  background-color: #0bbaef;
+}
+.pay-item {
+  width: 100%;
+  height: 76rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin-top: 10rpx;
+}
+.item-text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.item-text ._i {
+  display: block;
+  margin-right: 32rpx;
+  width: 16rpx;
+}
+.pay-item radio {
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+}
+

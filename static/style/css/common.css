@@ -1,0 +1,19 @@
+image {
+    width: 100%;
+}
+
+view {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+scroll-view ::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+}
+
+.uni-checkbox-input {
+    border-radius: 50% !important;
+}

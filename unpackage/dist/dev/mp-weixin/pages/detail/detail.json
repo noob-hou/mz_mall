@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "商品详情",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "shop-info": "/components/detail/ShopInfo",
+    "img-detaill": "/components/detail/ImgDetaill",
+    "bottom-bar": "/components/detail/BottomBar",
+    "shop-size": "/components/detail/shopSize",
+    "pop-up": "/components/PopUp"
+  }
+}

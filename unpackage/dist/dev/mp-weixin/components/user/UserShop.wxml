@@ -1,0 +1,1 @@
+<view class="user-shop"><block wx:for="{{icon}}" wx:for-item="item" wx:for-index="__i0__" wx:key="id"><view data-event-opts="{{[['tap',[['goOrderList',['$0'],[[['icon','id',item.id,'id']]]]]]]}}" class="shop-type" bindtap="__e"><view><image src="{{item.src}}" mode="scaleToFill"></image></view><view>{{item.txt}}</view></view></block></view>

@@ -1,0 +1,1 @@
+<view class="Advertising"><block wx:for="{{advertisingList}}" wx:for-item="item" wx:for-index="__i0__"><navigator class="Advertising-item" url="{{item.link}}" redirect="{{true}}" hover-class="className"><image src="{{baseUrl+item.image}}" mode="widthFix"></image></navigator></block></view>

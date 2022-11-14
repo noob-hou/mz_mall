@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "商品分类",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "search": "/components/category/Search",
+    "cate-list-left": "/components/category/cateListLeft",
+    "cate-list-right": "/components/category/cateListRight"
+  }
+}
